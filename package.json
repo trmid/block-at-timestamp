@@ -1,0 +1,37 @@
+{
+  "name": "block-at-timestamp",
+  "version": "1.0.0",
+  "description": "Ethers Provider extension to quickly find a block close to a target timestamp.",
+  "module": "dist/index.js",
+  "main": "dist/test.js",
+  "type": "module",
+  "scripts": {
+    "test": "tsc && node dist/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trmid/block-at-timestamp.git"
+  },
+  "keywords": [
+    "block",
+    "timestamp",
+    "ethers",
+    "query",
+    "blockchain",
+    "rpc",
+    "provider"
+  ],
+  "author": "Trevor Richard",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/trmid/block-at-timestamp/issues"
+  },
+  "homepage": "https://github.com/trmid/block-at-timestamp#readme",
+  "dependencies": {
+    "@ethersproject/abstract-provider": "^5.7.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.18",
+    "ethers": "^5.7.2"
+  }
+}

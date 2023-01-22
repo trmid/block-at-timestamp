@@ -1,0 +1,16 @@
+{
+  "include": [
+    "src/**/*.ts"
+  ],
+  "compilerOptions": {
+    "strict": true,
+    "alwaysStrict": true,
+    "module": "ES6",
+    "moduleResolution": "Node",
+    "target": "ES6",
+    "sourceMap": true,
+    "resolveJsonModule": true,
+    "noImplicitAny": true,
+    "outDir": "dist",
+  }
+}
