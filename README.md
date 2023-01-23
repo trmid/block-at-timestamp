@@ -1,6 +1,6 @@
 # block-at-timestamp
 
-![version](https://img.shields.io/badge/dynamic/json?color=brightgreen&label=version&query=%24.version&url=https%3A%2F%2Fraw.githubusercontent.com%2Ftrmid%2Fblock-at-timestamp%2Fmain%2Fpackage.json)
+![version](https://img.shields.io/badge/dynamic/json?color=brightgreen&label=npm&logo=npm&query=%24.version&url=https%3A%2F%2Fraw.githubusercontent.com%2Ftrmid%2Fblock-at-timestamp%2Fmain%2Fpackage.json&link=https%3A%2F%2Fwww.npmjs.com%2Fpackage%2Fblock-at-timestamp)
 ![typescript](https://img.shields.io/static/v1?label&logo=typescript&logoColor=white&message=TypeScript&color=blue)
 ![ethers](https://img.shields.io/static/v1?label&logo=ethereum&logoColor=white&message=ethers.js&color=gray&link=https%3A%2F%2Fwww.npmjs.com%2Fpackage%2Fethers)
 
