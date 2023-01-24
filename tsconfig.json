@@ -12,5 +12,6 @@
     "resolveJsonModule": true,
     "noImplicitAny": true,
     "outDir": "dist",
+    "declaration": true
   }
 }
