@@ -1,6 +1,6 @@
 {
   "name": "block-at-timestamp",
-  "version": "1.0.3",
+  "version": "2.0.0",
   "description": "Ethers Provider extension to quickly find a block close to a target timestamp.",
   "module": "dist/index.js",
   "main": "dist/index.js",
