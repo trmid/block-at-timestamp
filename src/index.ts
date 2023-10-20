@@ -113,7 +113,8 @@ export async function blockAtTimestamp(provider: Provider | string, timestamp: b
       const timeDiff = ub.timestamp - lb.timestamp;
       const precision = BigInt(1e6);
       const avgSecBlock = precision * timeDiff / blockDiff;
-      const estBlockNumber = (precision * (timestampAsBigInt - lb.timestamp)) / avgSecBlock + lb.number;
+      let estBlockNumber = (precision * (timestampAsBigInt - lb.timestamp)) / avgSecBlock + lb.number;
+      if (estBlockNumber > ub.number) estBlockNumber = ub.number;
       estBlock = await batp.getBlock(estBlockNumber);
       logCheck(estBlock);
       if(estBlock.timestamp > timestampAsBigInt) {
