@@ -4,7 +4,7 @@
 ![typescript](https://img.shields.io/static/v1?label&logo=typescript&logoColor=white&message=TypeScript&color=blue)
 ![ethers](https://img.shields.io/static/v1?label&logo=ethereum&logoColor=white&message=ethers.js&color=gray&link=https%3A%2F%2Fwww.npmjs.com%2Fpackage%2Fethers)
 
-Ethers Provider extension to quickly find a block close to a target timestamp.
+Quickly find a block close to a target timestamp using an RPC URL or ethers Provider.
 
 ## Installation
 
@@ -16,12 +16,10 @@ Install the package with the following command:
 
 ### Example Usage:
 ```js
-import { ethers } from "ethers";
 import { blockAtTimestamp } from "block-at-timestamp";
 
-let provider = new ethers.providers.JsonRpcProvider("https://rpc-provider.example/");
 let timestamp = 1674420070; // unix timestamp in seconds
-let block = await blockAtTimestamp(provider, timestamp);
+let block = await blockAtTimestamp("https://rpc-provider.example/", timestamp);
 ```
 
 ### Optional Target Range:
